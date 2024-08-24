@@ -6,6 +6,7 @@ const SelectCustom = ({setType,type}) => {
   }
   return (
     <Select
+    value={type}
     className='w-full'
     onChange={handleChange}
     size='large'

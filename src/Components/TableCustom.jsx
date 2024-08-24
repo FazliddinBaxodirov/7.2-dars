@@ -2,6 +2,10 @@ import React, { useContext } from 'react';
 import { Table } from 'antd';
 import { Context } from '../Hooks/Context';
 const columns = [
+  {
+    title: 'ID',
+    dataIndex:'ID'
+  },
     {
       title: 'Name',
       dataIndex: 'name',
